@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+  color: #fff;
+  font-family: sans-serif;
+  flex-direction: column;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(10, 30px);
+  gap: 2px;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background: #222;
+}
+
+.snake {
+  background: limegreen;
+}
+
+.food {
+  background: red;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#start-screen {
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+  width: 100px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
